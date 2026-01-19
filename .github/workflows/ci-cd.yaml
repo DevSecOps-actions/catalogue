@@ -6,7 +6,7 @@ jobs:
   catalogue:
     uses: DevSecOps-actions/reusable-workflows/.github/workflows/nodejs.yaml@main
     with: 
-      Project: Roboshop
+      Project: roboshop
       Application: catalogue
       app_type: nodejs
     secrets: 
